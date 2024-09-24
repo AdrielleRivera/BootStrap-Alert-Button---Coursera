@@ -20,12 +20,34 @@
         <h1 class="display-4 text-center">Bootstrap Alert Buttons</h1>
         <br/>
         <!-- Buttons -->
-            <div class="btn-group d-flex justify-content-center align-items-center" role="group" aria-label="Button group">
-                <button type="button" class="btn btn-success mx-2" id="successBtn">Success</button>
-                <button type="button" class="btn btn-warning mx-2" id="warningBtn">Warning</button>
-                <button type="button" class="btn btn-danger mx-2" id="dangerBtn">Danger</button>
-            </div>
-</div>
+             <div class="alert alert-success mt-3 fade show" id="successAlert" style="display: none;">
+         <div class="d-flex justify-content-between align-items-center">
+             <div>
+                 <i class="bi bi-1-circle-fill"></i> Yay - Success!
+             </div>
+             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+         </div>
+     </div>
+
+     <div class="alert alert-warning mt-3 fade show" id="warningAlert" style="display: none;">
+         <div class="d-flex justify-content-between align-items-center">
+             <div>
+                 <i class="bi bi-2-circle-fill"></i> Warning - Be careful!
+             </div>
+             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+             </button>
+         </div>
+     </div>
+
+     <div class="alert alert-danger mt-3 fade show" id="dangerAlert" style="display: none;">
+         <div class="d-flex justify-content-between align-items-center">
+             <div>
+                 <i class="bi bi-3-circle-fill"></i> Danger - Something went wrong!
+             </div>
+             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+             </button>
+         </div>
+     </div>
     </body>
 
 </html>	
